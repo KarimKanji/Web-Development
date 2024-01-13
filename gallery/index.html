@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--föratt få skelett av en webbsida, använd ! och första alternativet-->
+<!--skelettet fyller i bl.a. doctyper, head, body och metadata-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../style.css" rel="stylesheet"> <!-- LÄNKA CSS-fil-->
+    <title>
+        Övnings hemsida
+    </title>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <img id="logo" src="../media/smartliftLogoCopy.jpg" alt="Logo">
+            <span id="brand"> <a href="../">Smartlift </a> </span>
+            <ul id="navBar">
+                <li id="navBarItem1"> <a href="../"> HOME</a></li>
+                <!--betyder katalogen ovanför-->
+                <li id="navBarItem2"> <a class="current" href="./"> Gallery & FAQ</a> </li>
+                <!--betyder mappen vi är i-->
+                <li id="navBarItem3"> <a href="../contact/"> Contact</a> </li>
+                <li id="navBarItem4"> <a href="../rapport/"> Rapport</a> </li>
+            </ul>
+        </nav>
+
+        <article>
+            <iframe id="iframe" scrolling="no" src="../media/scaleRightSize.jpg" name="iframe"></iframe><br>
+            <a style="color: black" href="../media/kettleBellRightSize.jpg" target="iframe"> <img
+                    src="../media/kettleBellThumbnail.jpg" alt="Kettlebell"></a>
+            <a style="color: black" href="../media/dumbellrackNew.jpg" target="iframe"> <img
+                    src="../media/dumbellrackThumbnail.jpg" alt="DumbellRack"> </a>
+            <a style="color: black" href="../media/weightRightSize.jpg" target="iframe"> <img
+                    src="../media/weightThumbnail.jpg" alt="Weight"> </a>
+            <a style="color: black" href="../media/chickenAndBroccoliRightSize.jpg" target="iframe"> <img
+                    src="../media/chickenAndBroccoliThumbnail.jpg" alt="ChickenAndBroccoli"> </a>
+            <a style="color: black" href="../media/scaleRightSize.jpg" target="iframe"> <img
+                    src="../media/scaleThumbnail.jpg" alt="Scale"> </a> <br>
+        </article>
+
+        <div class="separator"></div>
+        <article id="galleryArticle">
+            <h2>
+                FAQ
+            </h2>
+            <div class="separator"></div>
+            <h4>
+                Is there an anabolic window after workouts?
+            </h4>
+            <p>
+
+                No, there are many modern studies that suggest that there is not <br>
+                a window after a workout where you build muscle "extra" well... <br>
+                However, consuming lots of carbohydrates after a workout helps <br>
+                to replenish glycogen stores in the muscles.
+            </p>
+            <div class="separator"></div>
+            <h4>
+                Does more calories equal to more muscle?
+            </h4>
+            <p>
+                Short anwser is no. In the fitness industry there is alot of <br>
+                misconception when it comes to calories. Yes, the body needs <br>
+                energy to make muscle but the amount needed is much less than<br>
+                people are led to believe. A surplus of 100-300 calories a day <br>
+                with 300 being an absolute maximum is more than enough to <br>
+                maximise muslce gain. Remember muscle is gained slowly. <br>
+            </p>
+            <div class="separator"></div>
+            <h4>
+                How much muslce should i expect to gain?
+            </h4>
+            <p>
+                The average person should expect to gain between 3-6kg of lean <br>
+                muscle per year and will expect to get deminishing returns after <br>
+                the third year of active proper training. If you gain more you are <br>
+                most likley mistaking your weight gain for fat, glycogen and water <br>
+                not muscle. Remember for every gram of carbohydrate 3 grams of water <br>
+                is stored as glycogen in all muscles!
+            </p>
+            <div class="separator"></div>
+            <h4>
+                I want to be lean and build muscle, is it possible?
+            </h4>
+            <p>
+                Yes it is possible to build muscle in a calorie deficit as long as <br>
+                its not to steep of a deficit and as long as you get sufficient <br>
+                protein. Remember protein is the building block for new muslce. <br>
+                If you are in a calorie deficit but have sufficient protein intake <br>
+                your body will burn fat for energy. Usually the safest way to gain <br>
+                muscle is to "maingain", which basically means that you don't "bulk"<br>
+                but you eat enough protein and you either burn fat or maintain <br>
+                your current fat %.
+            </p>
+            <div class="separator"></div>
+            <h4>
+                How much rest should i have between sets?
+            </h4>
+            <p>
+                Studies have shown that for smaller muscle groups like the biceps <br>
+                sufficient ATP (Adenosine triphosphate) is replenished in 1min 30sec - 2min <br>
+                but remember this is for heavy all-out sets. This means training <br>
+                harder than last time and not leaving anything in the tank. <br>
+                For more compound movements with sets of extreme intensity stuides have <br>
+                shown that a rest period of 2min 30sec - 4min is appropriate for maximum <br>
+                strenght in the following set. If you are a beginner you should certainly <br>
+                be on the lower end of the spectrum because the likleyhood of your sets<br>
+                being very intense is low.
+            </p>
+            <div class="separator"></div>
+
+            <video id="gymView" controls>
+                <source src="../media/videoEditedWithFade720pmp4container.mp4" type="video/mp4">
+            </video>
+            <audio controls>
+                <source src="../media/weightsInGymmp3.mp3">
+            </audio>
+        </article>
+    </section>
+    <footer id="footer">
+        Made By Karim Kanji | | +358 569693322 <br>
+        Smartliftworldwide@gmail.com <br>
+        Location: Jan-Magnus Janssons plats 1 <br>
+        00550, Helsingfors
+
+    </footer>
+
+
+</body>
+
+</html>
