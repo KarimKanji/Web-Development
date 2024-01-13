@@ -1,0 +1,421 @@
+body {
+    background-color:rgb(59, 70, 80);
+    color:black;
+    height: 100%;
+    margin: 0%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, arial, sans-serif ; /* fallback fonts*/
+    
+}
+section{
+    max-width: 1000px; /*tablet desktop läslighet*/
+    background-color: #ffffff;
+    margin: auto;
+    padding-bottom: 300px;
+    min-height: 100%;
+    
+}
+article{
+        padding: 0px 0px 20px 20px;
+}
+.separator {
+border-bottom: 2px solid #eeeeee;
+margin: 0px 20px;
+}
+
+nav{
+
+    background-color:rgb(100, 117, 134);
+    font-size: 18px;
+    padding: 15px; 
+}
+
+html {
+    height: 100%;
+}
+#navBar{
+    text-align: right;
+    min-height: 100%; 
+    margin: 0;
+    padding-right: 30px;
+}
+#navBarItem1{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+}
+#navBarItem2{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+}
+#navBarItem3{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+}
+#navBarItem4{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+}
+li a {
+    color: white;
+    text-decoration: none;
+
+}
+#logo {
+    height: 55px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+    
+}
+#brand {
+    float:left ;
+    color: white;
+    font-weight: bold;
+    font-size: 30px ;
+    padding: 5px 10px;
+}
+#brand a {
+    text-decoration: none;
+    color: white;
+}
+/*css selektrorer*/
+.current{
+    font-weight:bold; 
+}
+#navBarItem:hover{
+    background-color: rgb(51, 134, 230);
+
+}
+
+/*nyckeln till responsiv styling med @media, man definierar storklek
+min och max width å sedan vilken bild man skall använda under dessa 
+krav*/
+/*Det här är en guide hur man gör responsiva bilder*/
+/* Skärmar smalare än 600px */
+
+@media (max-width: 600px) {
+.responsiv {
+   display: none;
+}
+}
+
+
+rect {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+}
+@keyframes example {
+    from {fill:rgb(100, 117, 134);}
+    to {fill: rgb(46, 137, 237);}
+    
+}
+
+#topOfPage {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+}
+
+#keyConcept {
+    text-align: center;
+}
+#coreConcepts {
+    background-color: rgb(59, 70, 80);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    z-index: 1;
+    line-height: 50px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+
+#firstList1 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#firstList2 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+#firstList3 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#firstList4 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#firstList5 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#firstList6 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+#dumbellPushUpRow {
+    height: 200px;
+    margin-left: 530px;
+    margin-top: -100px;
+    margin-bottom: -150px; 
+}
+@media (max-width: 600px){
+    #timeUnderTension {
+        margin: auto;
+        padding: auto;
+        width: 70%;
+    }
+    
+}
+#timeUnderTension {
+    margin-top: -10%;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right: 40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-right: 50%;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    color: white;
+}
+
+
+#dumbellRack {
+    margin-bottom: 80px;
+    margin-top: -50px;
+    padding-bottom: 25px;
+    margin-left: 120px;
+    height: 200px;
+}
+
+#tearingDownMuscle {
+    margin-top: -10%;
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right:40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-right:5%;
+    margin-bottom: 70px; 
+    color: white;
+    
+}
+
+#mindMuscleConnection {
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right: 40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-right: 50%;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    margin-top: -10%;
+    color: white;
+}
+
+#closeGrip {
+    height: 200px;
+    margin-left: 530px;
+    margin-top: -400px;
+    margin-bottom: 150px;
+    
+}
+#nutrition {
+    margin-top: -10%;
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right:40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-left:50%;
+    margin-right: 5%;
+    margin-bottom: 70px; 
+    color: white;
+}
+
+#nutritionpic {
+    float: left;
+    height: 200px;
+    margin-bottom: 80px;
+    margin-top: -600px;
+    padding-bottom: 25px;
+    margin-left: 70px
+}
+
+#nutritionpic2 {
+    float: left;
+    height: 200px;
+    width: 355px;
+    margin-bottom: 80px;
+    margin-top: -350px;
+    padding-bottom: 25px;
+    margin-left: 70px
+}
+
+
+#rest {
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right: 40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-right: 50%;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    margin-top: -10%;
+    color: white;
+}
+
+#sleepingPerson {
+    height: 200px;
+    margin-left: 530px;
+    margin-top: -280px;
+    margin-bottom: 150px;
+}
+
+#protocol {
+    margin-top: -10%;
+    display: block;
+    float: right;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px; 
+    padding-right:40px; 
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgb(59, 70, 80);
+    border-radius: 50px;
+    margin-left:50%;
+    margin-right: 5%;
+    margin-bottom: 70px; 
+    color: white;
+}
+
+#dietPlan {
+    float: left;
+    height: 200px;
+    width: 355px;
+    margin-bottom: 80px;
+    margin-top: -350px;
+    padding-bottom: 70px;
+    margin-left: 70px
+}
+
+#footer {
+    max-width: 1000px; /*tablet desktop läslighet*/
+    background-color:rgb(100, 117, 134);
+    margin: auto;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 20px; 
+    
+}
+
+#galleryArticle {
+    margin-bottom: -250px;
+}
+
+#map {
+    margin-left: -20px;
+}
+#contactSection {
+    padding-bottom: 1px;
+}
+
+#planBild {
+    height: 600px;
+    float: right;
+    padding-right: 20px; 
+}
+
+#siteMap {
+    Padding-top: 30px;
+    padding-left: 25px;
+}
+
+#iframe {
+    height: 600px;
+    width: 950px;
+    border: 0px;
+}
+
+#map {
+    width: 102.05%;
+    height: 330px;
+    border: 0px;
+}
+#gymView {
+    height: 600px;
+    width: 950px;
+}
+
+.item1 { grid-area: header; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header';
+  grid-gap: 10px;
+  background-color: rgb(51, 134, 230);
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgb(100, 117, 134);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 18px;
+}
